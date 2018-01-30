@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "65a1aa038867dd9df66a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "81277e86868409784fb4"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -12941,7 +12941,7 @@ window.THREE = THREE;
 var scene = new window.THREE.Scene();
 window.scene = scene;
 
-var socket = (0, _socket2.default)('http://192.168.0.100:3001');
+var socket = (0, _socket2.default)(3001);
 
 var camera = new window.THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.x = 0;
