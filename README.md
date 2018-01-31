@@ -1,6 +1,9 @@
-# Socket Server
+# Web debugger backend
 
-Simple socket server to pass on position events
+Simple socket server to pass on debug events
+
+This server currently is online under: http://159.89.110.19:3001/
+You can find the frontend in this organisation under [web-debugger-frontend](https://github.com/ar-marco-polo/web-debugger-frontend)
 
 ## Setup
 
